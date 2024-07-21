@@ -1,0 +1,119 @@
+/* Reset CSS */
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: coral;
+    color: #333;
+    line-height: 1.6;
+}
+
+.top-bar {
+    background-color: #f67c1e;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 2px;
+}
+
+.top-bar p {
+    margin: 0;
+}
+
+.social-icons a {
+    margin-left: 1px;
+}
+
+header .logo {
+    text-align: center;
+    padding: 2px 0;
+}
+
+header .logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 1px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #f67c1e;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero span {
+    color: #f67c1e;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2px;
+    background-color: #fff;
+}
+
+.gallery img {
+    max-width: 30%;
+    margin: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
